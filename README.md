@@ -1,4 +1,4 @@
-# soonmapap_demo
+# demo
 
 ## Project setup
 ```
@@ -10,6 +10,8 @@ npm install
 npm run serve
 ```
 
+### 效果图如下:
+    <img src="./src/assets/show.png">
 ### Compiles and minifies for production
 ```
 npm run build
