@@ -1,0 +1,21 @@
+电子地图的操作步骤(Vue):
+
+1. cnpm install vue-soonspace soonspacejs -S
+2. #main.js
+    import VueSoonspace from 'vue-soonspace'
+    Vue.use(VueSoonspace)
+3. cnpm install xw-soonmap -s
+4.在vue页面
+    js部分引入:
+    import {SoonMap} from 'xw-soonmap'
+    css样式引入:
+    <style scoped>
+        @import 'https://unpkg.com/xw-soonmap/dist/sdk/style/map.css';
+    </style>
+    <style scoped>
+        #map{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+    </style>
