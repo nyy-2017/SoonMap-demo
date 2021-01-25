@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "soonspacejs": "^1.4.3",
+    "soonspacejs": "^1.7.20",
     "vue": "^2.6.11",
-    "vue-soonspace": "^0.3.7"
+    "vue-soonspace": "^0.3.10",
+    "xw-soonmap": "^0.1.604"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
